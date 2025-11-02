@@ -6,6 +6,7 @@ from stable_baselines3.common.monitor import Monitor
 import numpy as np
 import gymnasium as gym
 import os
+import pandas as pd
 from RL_Enviroment import EvAmbulanceEnv
 
 BatterySize = 68 #kWh for Ford E-Transit
